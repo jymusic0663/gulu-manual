@@ -1,7 +1,7 @@
 const import_meta = {};
 const scriptRel = "modulepreload";
 const seen = {};
-const base = "/";
+const base = "/gulu-manual/";
 const __vitePreload = function preload(baseModule, deps) {
   if (!deps || deps.length === 0) {
     return baseModule();
@@ -35,35 +35,35 @@ const __vitePreload = function preload(baseModule, deps) {
 const pagesData$1 = {
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.d2a3d8e0.js"
+    "./index.html.563a1f8b.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-74379e72": () => __vitePreload(() => import(
     /* webpackChunkName: "v-74379e72" */
-    "./index.html.3fa90e42.js"
-  ), true ? [] : void 0).then(({ data }) => data),
-  "v-8d26ccde": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-8d26ccde" */
-    "./index.html.f36ebfb0.js"
+    "./index.html.13482680.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-47b4ba3e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-47b4ba3e" */
-    "./index.html.6339032a.js"
+    "./index.html.f7f260ce.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-12edb7b7": () => __vitePreload(() => import(
     /* webpackChunkName: "v-12edb7b7" */
-    "./index.html.cb006478.js"
+    "./index.html.0d001be8.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-8d26ccde": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-8d26ccde" */
+    "./index.html.f4c87cc9.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-4a095381": () => __vitePreload(() => import(
     /* webpackChunkName: "v-4a095381" */
-    "./index.html.0d727326.js"
-  ), true ? [] : void 0).then(({ data }) => data),
-  "v-5d12bb53": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-5d12bb53" */
-    "./index.html.78e7071c.js"
+    "./index.html.1505dfad.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-14b0c02e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0c02e" */
-    "./index.html.d97cde4b.js"
+    "./index.html.425a5471.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-5d12bb53": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-5d12bb53" */
+    "./index.html.d0cdba7c.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-3706649a": () => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
@@ -6921,7 +6921,7 @@ function initDev() {
 {
   initDev();
 }
-const siteData$1 = JSON.parse('{"base":"/","lang":"zh-CN","title":"\u8292\u679C\u5E7B\u57CE\u9B54\u6CD5\u672C","description":"","head":[["meta",{"name":"application-name","content":"\u8292\u679C\u5E7B\u57CE\u9B54\u6CD5\u672C"}],["meta",{"name":"apple-mobile-web-app-title","content":"\u8292\u679C\u5E7B\u57CE\u9B54\u6CD5\u672C"}],["meta",{"name":"msapplication-TileColor","content":"#9e57eb"}],["meta",{"name":"theme-color","content":"#9e57eb"}],["meta",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["link",{"rel":"manifest","href":"/manifest.webmanifest"}],["link",{"rel":"apple-touch-icon","href":"/images/icons/apple-touch-icon.png","sizes":"180x180"}],["link",{"rel":"icon","type":"image/png","sizes":"32x32","href":"/images/icons/favicon-32x32.png"}],["link",{"rel":"icon","type":"image/png","sizes":"16x16","href":"/images/icons/favicon-16x16.png"}]],"locales":{}}');
+const siteData$1 = JSON.parse('{"base":"/gulu-manual/","lang":"zh-CN","title":"\u8292\u679C\u5E7B\u57CE\u9B54\u6CD5\u672C","description":"","head":[["meta",{"name":"application-name","content":"\u8292\u679C\u5E7B\u57CE\u9B54\u6CD5\u672C"}],["meta",{"name":"apple-mobile-web-app-title","content":"\u8292\u679C\u5E7B\u57CE\u9B54\u6CD5\u672C"}],["meta",{"name":"msapplication-TileColor","content":"#9e57eb"}],["meta",{"name":"theme-color","content":"#9e57eb"}],["meta",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["link",{"rel":"manifest","href":"/manifest.webmanifest"}],["link",{"rel":"apple-touch-icon","href":"/images/icons/apple-touch-icon.png","sizes":"180x180"}],["link",{"rel":"icon","type":"image/png","sizes":"32x32","href":"/images/icons/favicon-32x32.png"}],["link",{"rel":"icon","type":"image/png","sizes":"16x16","href":"/images/icons/favicon-16x16.png"}]],"locales":{}}');
 var resolveHeadIdentifier = ([
   tag,
   attrs,
@@ -6974,49 +6974,49 @@ var resolveLocalePath = (locales2, routePath) => {
 const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.dcd5e523.js"
+    "./index.html.52fcfeca.js"
   ), true ? [] : void 0)),
   "v-74379e72": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-74379e72" */
-    "./index.html.b27696e5.js"
-  ), true ? [] : void 0)),
-  "v-8d26ccde": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-8d26ccde" */
-    "./index.html.868c2533.js"
+    "./index.html.883a3a45.js"
   ), true ? [] : void 0)),
   "v-47b4ba3e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-47b4ba3e" */
-    "./index.html.1279e5d3.js"
+    "./index.html.b43deda2.js"
   ), true ? [] : void 0)),
   "v-12edb7b7": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-12edb7b7" */
-    "./index.html.d8fcd6f6.js"
+    "./index.html.0f899286.js"
+  ), true ? [] : void 0)),
+  "v-8d26ccde": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-8d26ccde" */
+    "./index.html.378b27a2.js"
   ), true ? [] : void 0)),
   "v-4a095381": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-4a095381" */
-    "./index.html.30bfdcf5.js"
-  ), true ? [] : void 0)),
-  "v-5d12bb53": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-5d12bb53" */
-    "./index.html.4fec9d06.js"
+    "./index.html.40187e2b.js"
   ), true ? [] : void 0)),
   "v-14b0c02e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-14b0c02e" */
-    "./index.html.e684eba5.js"
+    "./index.html.96534670.js"
+  ), true ? [] : void 0)),
+  "v-5d12bb53": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-5d12bb53" */
+    "./index.html.2a04bd80.js"
   ), true ? [] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
-    "./404.html.7e6c6b6c.js"
+    "./404.html.702e4527.js"
   ), true ? [] : void 0))
 };
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.5925d3c0.js"
+    "./404.5cc26f99.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.1de14972.js"
+    "./Layout.2ccb9808.js"
   ), true ? [] : void 0))
 };
 var pagesData = ref(pagesData$1);
@@ -9645,7 +9645,7 @@ var clientConfig0 = defineClientConfig({
 const getScrollTop = () => window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 var vars$3 = /* @__PURE__ */ (() => ":root {\n  --back-to-top-z-index: 5;\n\n  --back-to-top-color: #3eaf7c;\n  --back-to-top-color-hover: #71cda3;\n}\n")();
-var backToTop = /* @__PURE__ */ (() => ".back-to-top {\n  cursor: pointer;\n  position: fixed;\n  bottom: 2rem;\n  right: 2.5rem;\n  width: 2rem;\n  height: 1.2rem;\n  background-color: var(--back-to-top-color);\n  -webkit-mask: url('/assets/back-to-top.8efcbe56.svg') no-repeat;\n          mask: url('/assets/back-to-top.8efcbe56.svg') no-repeat;\n  z-index: var(--back-to-top-z-index);\n}\n\n.back-to-top:hover {\n  background-color: var(--back-to-top-color-hover);\n}\n\n@media (max-width: 959px) {\n  .back-to-top {\n    display: none;\n  }\n}\n\n.back-to-top-enter-active,\n.back-to-top-leave-active {\n  transition: opacity 0.3s;\n}\n\n.back-to-top-enter-from,\n.back-to-top-leave-to {\n  opacity: 0;\n}\n")();
+var backToTop = /* @__PURE__ */ (() => ".back-to-top {\n  cursor: pointer;\n  position: fixed;\n  bottom: 2rem;\n  right: 2.5rem;\n  width: 2rem;\n  height: 1.2rem;\n  background-color: var(--back-to-top-color);\n  -webkit-mask: url('/gulu-manual/assets/back-to-top.8efcbe56.svg') no-repeat;\n          mask: url('/gulu-manual/assets/back-to-top.8efcbe56.svg') no-repeat;\n  z-index: var(--back-to-top-z-index);\n}\n\n.back-to-top:hover {\n  background-color: var(--back-to-top-color-hover);\n}\n\n@media (max-width: 959px) {\n  .back-to-top {\n    display: none;\n  }\n}\n\n.back-to-top-enter-active,\n.back-to-top-leave-active {\n  transition: opacity 0.3s;\n}\n\n.back-to-top-enter-from,\n.back-to-top-leave-to {\n  opacity: 0;\n}\n")();
 const BackToTop = defineComponent({
   name: "BackToTop",
   setup() {
@@ -11147,12 +11147,12 @@ const clientConfigs = [
 const pagesRoutes = [
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
   ["v-74379e72", "/FAQ/", { "title": "\u5E38\u89C1\u95EE\u9898" }, ["/FAQ/index.html", "/FAQ/README.md"]],
-  ["v-8d26ccde", "/Basics/", { "title": "\u4F60\u731C" }, ["/Basics/index.html", "/Basics/README.md"]],
   ["v-47b4ba3e", "/Funny/", { "title": "\u4F60\u731C" }, ["/Funny/index.html", "/Funny/README.md"]],
   ["v-12edb7b7", "/Home/", { "title": "\u4F60\u731C" }, ["/Home/index.html", "/Home/README.md"]],
+  ["v-8d26ccde", "/Basics/", { "title": "\u4F60\u731C" }, ["/Basics/index.html", "/Basics/README.md"]],
   ["v-4a095381", "/Island/", { "title": "\u4F60\u731C" }, ["/Island/index.html", "/Island/README.md"]],
-  ["v-5d12bb53", "/Street/", { "title": "\u4F60\u731C" }, ["/Street/index.html", "/Street/README.md"]],
   ["v-14b0c02e", "/host/", { "title": "\u4E3B\u6301\u4EBA\u7BC7" }, ["/host/index.html", "/host/README.md"]],
+  ["v-5d12bb53", "/Street/", { "title": "\u4F60\u731C" }, ["/Street/index.html", "/Street/README.md"]],
   ["v-3706649a", "/404.html", { "title": "" }, ["/404"]]
 ];
 var createRoutes = () => pagesRoutes.reduce((result, [name, path, meta, redirects]) => {

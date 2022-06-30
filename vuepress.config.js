@@ -4,7 +4,7 @@ const { defaultTheme } = require("vuepress");
 const { link } = require("fs");
 
 module.exports = {
-  base: "/",
+  base: "/gulu-manual/",
   lang: "zh-CN",
   title: "芒果幻城魔法本",
   description: "",
