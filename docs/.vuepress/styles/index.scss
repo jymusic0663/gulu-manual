@@ -38,6 +38,12 @@
     --content-width: 820px;
     //--homepage-width: 960px;
 }
+
+html.dark {
+    --c-brand: #9e57eb;
+    --c-brand-light: #cf79f5;
+}
+
 .navbar .site-name {
     font-size: 1rem;
     margin: 0 0.5rem;
