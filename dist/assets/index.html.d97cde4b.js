@@ -1,0 +1,2 @@
+const data = JSON.parse('{"key":"v-14b0c02e","path":"/host/","title":"\u4E3B\u6301\u4EBA\u7BC7","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"\u4E3B\u6301\u4EBA\u7BC7","description":"\u4E3B\u6301\u4EBA\u7BC7","tags":["\u4E3B\u6301\u4EBA\u7BC7"],"pageClass":"article-page-class"},"excerpt":"","headers":[{"level":1,"title":"\u4E3B\u6301\u4EBA\u7BC7","slug":"\u4E3B\u6301\u4EBA\u7BC7","children":[]}],"git":{},"filePathRelative":"host/README.md"}');
+export { data };

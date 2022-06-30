@@ -1,0 +1,27 @@
+{
+  "name": "gulu-manual",
+  "version": "1.0.0",
+  "description": "芒果幻城魔法本",
+  "author": "芒果幻城志愿者",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.48",
+    "vuepress-plugin-qrcode": "^1.0.7"
+  },
+  "dependencies": {
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-video": "^0.6.3",
+    "moment": "^2.29.1"
+  }
+}

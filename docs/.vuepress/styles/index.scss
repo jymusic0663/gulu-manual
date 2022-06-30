@@ -1,0 +1,56 @@
+:root {
+    // brand colors
+    --c-brand: #9e57eb;
+    --c-brand-light: #cf79f5;
+
+    // background colors
+    // --c-bg: #ffffff;
+    // --c-bg-light: #f3f4f5;
+    // --c-bg-lighter: #eeeeee;
+    // --c-bg-navbar: var(--c-bg);
+    // --c-bg-sidebar: var(--c-bg);
+    //--c-bg-arrow: #cccccc;
+
+    // text colors
+    --c-text: #2c3e50;
+    --c-text-accent: var(--c-brand);
+    --c-text-light: #3a5169;
+    --c-text-lighter: #4e6e8e;
+    --c-text-lightest: #6a8bad;
+    --c-text-quote: #999999;
+
+    // border colors
+    //--c-border: #eaecef;
+    //--c-border-dark: #dfe2e5;
+
+    // code blocks vars
+    --code-bg-color: #2b3438;
+    --code-hl-bg-color: rgba(0, 0, 0, 0.66);
+    --code-ln-color: #838a8f;
+    --code-ln-wrapper-width: 3rem;
+
+    // layout vars
+    --navbar-height: 3rem;
+    --navbar-padding-v: 0rem;
+    //--navbar-padding-h: 1.5rem;
+    //--sidebar-width: 20rem;
+    //--sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
+    --content-width: 820px;
+    //--homepage-width: 960px;
+}
+.navbar .site-name {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+.theme-container.article-page-class {
+    .custom {
+        ol,
+        ul {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        > p {
+            text-indent: 2rem;
+        }
+    }
+}
